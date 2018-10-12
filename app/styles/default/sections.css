@@ -1,0 +1,56 @@
+.riskanalys {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#risico {
+	width: 25em;
+	height: 28em;
+	border-radius: .3em;
+	background-color: #ffffff;
+	margin: 1em;
+	box-shadow: 2px 2px #718093;
+}
+
+.category {
+	width: 25em;
+	height: 28em;
+	border-radius: .3em;
+	background-color: #ffffff;
+	margin: 1em;
+	box-shadow: 2px 2px #718093;
+}
+
+select {
+	margin-left: 10px;
+	width: 20em;
+	height: 2em;
+	border-radius: .3em;
+}
+
+select:active {
+	border: #273c75;
+	outline: 0;
+}
+
+/*#tabs {
+	width: 65em;
+	height: 35em;
+	border-radius: .3em;
+	background-color: #ffffff;
+	margin: 2em;
+	box-shadow: 2px 2px #718093;
+	display: flex;
+	flex-wrap: wrap
+}
+*/
+h1, h2, h3, h5, p {
+	text-align: left;
+	line-height: 2em;
+	margin-left: 10px;
+}
+
+#tabs > p:hover {
+	text-decoration: underline #40739e;
+	cursor: pointer;
+}
