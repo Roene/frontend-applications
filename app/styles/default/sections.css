@@ -50,7 +50,6 @@ h1, h2, h3, h5, p {
 	margin-left: 10px;
 }
 
-#tabs > p:hover {
-	text-decoration: underline #40739e;
-	cursor: pointer;
+select {
+	max-height: 12em;
 }

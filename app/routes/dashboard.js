@@ -334,26 +334,26 @@ var data = [
 ]
 
 // Bron Martijn Reeuwijk <3 | Datum 14-10-2018
-var data_prepped = [];
+var dataCombined = [];
 for (var i = 0; i < data.length; i++) {
 
-  var new_cat = true;
-  for (var j = 0; j < data_prepped.length; j++) {
-    if (data_prepped[j].Categorie === data[i].Categorie) {
-      new_cat = false;
+  var newCategory = true;
+  for (var j = 0; j < dataCombined.length; j++) {
+    if (dataCombined[j].Categorie === data[i].Categorie) {
+      newCategory = false;
     }
   }
 
-  if (new_cat) {
-    data_prepped.push({
+  if (newCategory) {
+    dataCombined.push({
       'Categorie': data[i].Categorie,
       'Antwoorden': []
     });
   }
 
-  for (var j = 0; j < data_prepped.length; j++) {
-    if (data_prepped[j].Categorie === data[i].Categorie) {
-      data_prepped[j].Antwoorden.push({
+  for (var j = 0; j < dataCombined.length; j++) {
+    if (dataCombined[j].Categorie === data[i].Categorie) {
+      dataCombined[j].Antwoorden.push({
         'Coefficients': data[i].Coefficients,
         'Name': data[i].Name,
         'Gewicht': data[i].Gewicht,
@@ -364,8 +364,8 @@ for (var i = 0; i < data.length; i++) {
 
 export default Route.extend({
 	model() {
-		console.log(data);
-		console.log(data_prepped);
-		return data_prepped;
+    console.log(data);
+    console.log(dataCombined);
+    return dataCombined;
 	}
 });

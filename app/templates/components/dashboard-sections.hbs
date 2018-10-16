@@ -4,7 +4,7 @@
 
 			<section class="category">
 					<h1>Algemeen</h1>
-				{{#each data_prepped as |data|}}
+				{{#each dataCombined as |data|}}
 						<h5>{{data.Categorie}}</h5>
 					<select class="" name="">
 						{{#each data.Antwoorden as |antwoord|}}					
@@ -17,8 +17,17 @@
 			</section>
 
 			<section class="category">
-				<h1>Werk en opleiding</h1>
-
+				<h1>Werk & Opleiding</h1>
+				{{#each dataCombined as |data|}}
+						<h5>{{data.Categorie}}</h5>
+					<select class="" name="">
+						{{#each data.Antwoorden as |antwoord|}}					
+							<option data-weight="{{antwoord.Gewicht}}" name="{{antwoord.Name}}">
+								{{antwoord.Name}}
+							</option>
+						{{/each}}
+					</select>
+				{{/each}}
 			</section>
 
 			<section class="category">
