@@ -4,7 +4,7 @@
 
 			<section class="category">
 					<h1>Algemeen</h1>
-				{{#each dataCombined as |data|}}
+				{{#each dataDoubleCombined.algemeen as |data|}}
 						<h5>{{data.Categorie}}</h5>
 					<select class="" name="">
 						{{#each data.Antwoorden as |antwoord|}}					
@@ -17,8 +17,8 @@
 			</section>
 
 			<section class="category">
-				<h1>Werk & Opleiding</h1>
-				{{#each dataCombined as |data|}}
+				<h1>Opleiding</h1>
+				{{#each dataDoubleCombined.opleiding as |data|}}
 						<h5>{{data.Categorie}}</h5>
 					<select class="" name="">
 						{{#each data.Antwoorden as |antwoord|}}					
@@ -32,160 +32,47 @@
 
 			<section class="category">
 				<h1>Huishouding</h1>
-
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
+				{{#each dataDoubleCombined.huishouding as |data|}}
+						<h5>{{data.Categorie}}</h5>
+					<select class="" name="">
+						{{#each data.Antwoorden as |antwoord|}}					
+							<option data-weight="{{antwoord.Gewicht}}" name="{{antwoord.Name}}">
+								{{antwoord.Name}}
+							</option>
+						{{/each}}
+					</select>
+				{{/each}}
 			</section>
 
 			<section class="category">
-				<h1>Gezondheid</h1>
-
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
+				<h1>Werk & Sociaal</h1>
+				{{#each dataDoubleCombined.werk as |data|}}
+						<h5>{{data.Categorie}}</h5>
+					<select class="" name="">
+						{{#each data.Antwoorden as |antwoord|}}					
+							<option data-weight="{{antwoord.Gewicht}}" name="{{antwoord.Name}}">
+								{{antwoord.Name}}
+							</option>
+						{{/each}}
+					</select>
+				{{/each}}
 			</section>
 
 			<section class="category">
-				<h1>ADL</h1>
+				<h1>Justitie</h1>
 
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
+				{{#each dataDoubleCombined.justitie as |data|}}
+						<h5>{{data.Categorie}}</h5>
+					<select class="" name="">
+						{{#each data.Antwoorden as |antwoord|}}					
+							<option data-weight="{{antwoord.Gewicht}}" name="{{antwoord.Name}}">
+								{{antwoord.Name}}
+							</option>
+						{{/each}}
+					</select>
+				{{/each}}
 			</section>
 
-			<section class="category">
-				<h1>Sociaal</h1>
-
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-					<h5>Geslacht</h5>
-				<select>
-					<option>Iets Anders</option>
-					<option>Iets</option>
-				</select>
-			</section>
-
-
-			{{!-- <section id="tabs">
-				<p>Algemeen</p>
-				<p>Tijdsbesteding</p>
-				<p>Huisvesting</p>
-				<p>Huiselijke relaties</p>
-				<p>Geestelijke gezondheid</p>
-				<p>Lichamelijke gezondheid</p>
-				<p>Middelengebruik</p>
-				<p>Basale ADL</p>
-				<p>Instrumentale ADL</p>
-				<p>Sociaal netwerk</p>
-				<p>Maatschappelijke participatie</p>
-				<p>Justitie</p>
-
-			</section> --}}
 		</div>
 	
 {{yield}}

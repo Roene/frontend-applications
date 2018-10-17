@@ -8,6 +8,12 @@ var data = [
     "Gewicht": "-0,12611"
   },
   {
+    "Coefficients": "GESLACHT Vrouwen",
+    "Categorie": "Geslacht",
+    "Name": "Vrouw",
+    "Gewicht": "-0,12611"
+  },
+  {
     "Coefficients": "Herkomst ouders: Beide ouders niet Nederlands",
     "Categorie": "Herkomst",
     "Name": "Beide ouders niet Nederlands",
@@ -362,10 +368,53 @@ for (var i = 0; i < data.length; i++) {
   }
 }
 
+// Worked tougher with Jeroen van Berkum
+var dataDoubleCombined = {
+  algemeen: new Array,
+  opleiding: new Array,
+  huishouding: new Array,
+  werk: new Array,
+  justitie: new Array
+}
+
+for (var x = 0; x < dataCombined.length; x++) {
+  switch(dataCombined[x].Categorie) {
+    case 'Geslacht':
+    case 'Herkomst':
+    case 'Slachtoffer':
+    case 'Traject vooraf':
+      dataDoubleCombined.algemeen.push(dataCombined[x])
+      break; 
+    case 'Voortijdig schoolverlaten':
+    case 'Soort onderwijs':
+    case 'Verandering onderwijs niveau':
+    case 'Actueel onderwijs niveau':
+    case 'Hoogst behaalde dirploma vader':
+    case 'Hoogst behaalde diploma moeder':
+      dataDoubleCombined.opleiding.push(dataCombined[x])
+      break;
+    case 'Soort woning':
+    case 'Type huishouden':
+      dataDoubleCombined.huishouding.push(dataCombined[x])
+      break;
+    case 'Leeftijd moeder':
+    case 'Leeftijd vader':
+    case 'Gescheiden ouders':
+    case 'Leeftdijverschil':
+    case 'Werk vader':
+    case 'Werk moeder':
+      dataDoubleCombined.werk.push(dataCombined[x])
+      break;
+    case 'Vader of moeder verdacht':
+    case 'Kind verdacht':
+    case 'Halt delict':
+      dataDoubleCombined.justitie.push(dataCombined[x])
+      break;
+  }
+}
+
 export default Route.extend({
 	model() {
-    console.log(data);
-    console.log(dataCombined);
-    return dataCombined;
+    return dataDoubleCombined;
 	}
 });
