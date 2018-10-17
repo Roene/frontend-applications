@@ -80,6 +80,12 @@ var data = [
     "Gewicht": "0,27683"
   },
   {
+    "Coefficients": "Scheiding",
+    "Categorie": "Gescheiden ouders",
+    "Name": "Nee",
+    "Gewicht": "0,27683"
+  },
+  {
     "Coefficients": "VSV Niet van toepassing",
     "Categorie": "Voortijdig schoolverlaten",
     "Name": "Niet van toepassing",
@@ -164,6 +170,12 @@ var data = [
     "Gewicht": "0,23639"
   },
   {
+    "Coefficients": "Slachtoffer Nee",
+    "Categorie": "Slachtoffer",
+    "Name": "Nee",
+    "Gewicht": "0,23639"
+  },
+  {
     "Coefficients": "Jeuggdhulp zonder verblijf vooraf",
     "Categorie": "Traject vooraf",
     "Name": "Jeugdhulp zonder verblijf gehad",
@@ -230,15 +242,33 @@ var data = [
     "Gewicht": "0,50027"
   },
   {
+    "Coefficients": "Verdenking misdrijf Vader of moeder Nee",
+    "Categorie": "Vader of moeder verdacht",
+    "Name": "Nee",
+    "Gewicht": "0,50027"
+  },
+  {
     "Coefficients": "Verdenking misdrijf KIND Ja",
     "Categorie": "Kind verdacht",
     "Name": "Ja",
     "Gewicht": "0,94738"
   },
   {
+    "Coefficients": "Verdenking misdrijf KIND Nee",
+    "Categorie": "Kind verdacht",
+    "Name": "Nee",
+    "Gewicht": "0,94738"
+  },
+  {
     "Coefficients": "HALTDELICT Ja",
     "Categorie": "Halt delict",
     "Name": "Ja",
+    "Gewicht": "0,36448"
+  },
+  {
+    "Coefficients": "HALTDELICT Nee",
+    "Categorie": "Halt delict",
+    "Name": "Nee",
     "Gewicht": "0,36448"
   },
   {
@@ -257,6 +287,12 @@ var data = [
     "Coefficients": "Leeftijdsverschil ouders meer dan 5 jaar",
     "Categorie": "Leeftijdsverschil ouders",
     "Name": "Meer dan 5 jaar",
+    "Gewicht": "0,28581"
+  },
+  {
+    "Coefficients": "Leeftijdsverschil ouders minder dan 5 jaar",
+    "Categorie": "Leeftijdsverschil ouders",
+    "Name": "Minder dan 5 jaar",
     "Gewicht": "0,28581"
   },
   {
@@ -381,15 +417,16 @@ for (var x = 0; x < dataCombined.length; x++) {
   switch(dataCombined[x].Categorie) {
     case 'Geslacht':
     case 'Herkomst':
-    case 'Slachtoffer':
-    case 'Traject vooraf':
+    case 'Leeftijd moeder':
+    case 'Leeftijd vader':
+    case 'Leeftijdsverschil ouders':
       dataDoubleCombined.algemeen.push(dataCombined[x])
       break; 
     case 'Voortijdig schoolverlaten':
     case 'Soort onderwijs':
     case 'Verandering onderwijs niveau':
     case 'Actueel onderwijs niveau':
-    case 'Hoogst behaalde dirploma vader':
+    case 'Hoogst behaalde diploma vader':
     case 'Hoogst behaalde diploma moeder':
       dataDoubleCombined.opleiding.push(dataCombined[x])
       break;
@@ -397,10 +434,7 @@ for (var x = 0; x < dataCombined.length; x++) {
     case 'Type huishouden':
       dataDoubleCombined.huishouding.push(dataCombined[x])
       break;
-    case 'Leeftijd moeder':
-    case 'Leeftijd vader':
     case 'Gescheiden ouders':
-    case 'Leeftdijverschil':
     case 'Werk vader':
     case 'Werk moeder':
       dataDoubleCombined.werk.push(dataCombined[x])
@@ -408,6 +442,8 @@ for (var x = 0; x < dataCombined.length; x++) {
     case 'Vader of moeder verdacht':
     case 'Kind verdacht':
     case 'Halt delict':
+    case 'Slachtoffer':
+    case 'Traject vooraf':
       dataDoubleCombined.justitie.push(dataCombined[x])
       break;
   }
