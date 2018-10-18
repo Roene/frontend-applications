@@ -1,12 +1,22 @@
 # Risicotaxatie app
-Dit project is opgesteld om de risicotaxatie app van Arjan te verbeteren.
+Dit project is opgesteld om de risicotaxatie app van Arjan te verbeteren. De applicatie kan worden gebruikt om de kans op een zware 
+maatregel te berekenen.
 Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in dit project is dat [Ember.js](https://www.emberjs.com/).
 
 ## Inhoud
+* [To Do](#to-do)
 * [Voorwaarden](#voorwaarden)
 * [Installatie](#installatie)
-* [Start](#start)
+* [Start](#start-project)
 * [Licentie](#licentie)
+
+## To Do
+Tijdens dit project wilde ik de volgende dingen doen
+- [x] Ember installeren
+- [x] Componenten & routes maken
+- [x] Data inladen in component
+- [ ] Ingevulde data opslaan in localstorage 
+- [ ] Helpers gebruiken 
 
 ## Voorwaarden
 
@@ -24,8 +34,7 @@ git clone https://github.com/Roene/tt-assessment-1
 cd risicotaxatie
 npm install
 ```
-
-## Start
+## Start project
 
 * `ember serve`
 * Bezoek de app op : [http://localhost:4200](http://localhost:4200).
