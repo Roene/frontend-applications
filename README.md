@@ -31,7 +31,7 @@ Voor dit project moet je de volgende dingen geinstalleerd hebben op je computer 
 
 Om dit project te installeren ga je naar je _terminal:_
 ```
-git clone https://github.com/Roene/tt-assessment-1
+git clone https://github.com/Roene/frontend-applications
 cd risicotaxatie
 npm install
 ```
