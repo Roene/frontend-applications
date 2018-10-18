@@ -42,3 +42,21 @@ img {
 	height: 10%;
 	float: center;
 }
+
+#down {
+	margin-top: 39.5em;
+	text-align: center;
+	color: #ffffff;
+	opacity: 0.8;
+}
+
+#user {
+	margin: 39em 0 0 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
