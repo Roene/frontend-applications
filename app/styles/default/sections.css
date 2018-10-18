@@ -33,8 +33,19 @@ select:active {
 	outline: 0;
 }
 
+select:hover {
+	background-color: #f5f6fa;
+}
+
 h1, h2, h3, h5, p {
 	text-align: left;
 	line-height: 2em;
 	margin-left: 10px;
+}
+
+#risk_num {
+	text-align: left;
+	line-height: 2em;
+	margin-left: 10px;	
+	color: #000000;
 }

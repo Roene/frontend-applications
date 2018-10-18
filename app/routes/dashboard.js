@@ -404,13 +404,13 @@ for (var i = 0; i < data.length; i++) {
   }
 }
 
-// Worked tougher with Jeroen van Berkum
+// Worked together with Jeroen van Berkum
 var dataDoubleCombined = {
-  algemeen: new Array,
-  opleiding: new Array,
-  huishouding: new Array,
-  werk: new Array,
-  justitie: new Array
+  algemeen: [],
+  opleiding: [],
+  huishouding: [],
+  werk: [],
+  justitie: []
 }
 
 for (var x = 0; x < dataCombined.length; x++) {
@@ -420,7 +420,7 @@ for (var x = 0; x < dataCombined.length; x++) {
     case 'Leeftijd moeder':
     case 'Leeftijd vader':
     case 'Leeftijdsverschil ouders':
-      dataDoubleCombined.algemeen.push(dataCombined[x])
+      dataDoubleCombined.algemeen.push(dataCombined[x]);
       break; 
     case 'Voortijdig schoolverlaten':
     case 'Soort onderwijs':
@@ -428,23 +428,23 @@ for (var x = 0; x < dataCombined.length; x++) {
     case 'Actueel onderwijs niveau':
     case 'Hoogst behaalde diploma vader':
     case 'Hoogst behaalde diploma moeder':
-      dataDoubleCombined.opleiding.push(dataCombined[x])
+      dataDoubleCombined.opleiding.push(dataCombined[x]);
       break;
     case 'Soort woning':
     case 'Type huishouden':
-      dataDoubleCombined.huishouding.push(dataCombined[x])
+      dataDoubleCombined.huishouding.push(dataCombined[x]);
       break;
     case 'Gescheiden ouders':
     case 'Werk vader':
     case 'Werk moeder':
-      dataDoubleCombined.werk.push(dataCombined[x])
+      dataDoubleCombined.werk.push(dataCombined[x]);
       break;
     case 'Vader of moeder verdacht':
     case 'Kind verdacht':
     case 'Halt delict':
     case 'Slachtoffer':
     case 'Traject vooraf':
-      dataDoubleCombined.justitie.push(dataCombined[x])
+      dataDoubleCombined.justitie.push(dataCombined[x]);
       break;
   }
 }
