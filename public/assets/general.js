@@ -3,11 +3,12 @@ function number(element) {
 	var values = document.querySelectorAll('.choose option:checked');
 	var totalWeight = element.options[element.selectedIndex].value;
 	for (var i = 0; i < values.length; i++) {
-		let weight = values[i].getAttribute('value');
+		var weight = values[i].getAttribute('value');
 		var number = parseFloat(weight);
 		factorRisk(number);
 	}
 	calculateRisk(Number(totalWeight.replace(',', '.')));
+	console.log(totalWeight);
 }
 
 function calculateRisk(X) {
