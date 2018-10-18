@@ -48,6 +48,7 @@ In mijn proces ga ik de volgende dingen bespreken.
 * Starten met Ember
 * Het Concept
 * Data inladen
+* Leerdoelen
 * Conclusie
 
 ### Starten met Ember
@@ -55,7 +56,7 @@ Tijdens het installeren van Ember liep ik al tegen problemen aan. Ik kreeg versc
 Het fixen van deze errors was lastig omdat ik soms niet wist op welke errors ik moest zoeken. Uiteindelijk heeft dit mij 1 dag gekost voor ik het probleem
 kon gaan oplossen.
 
-Nadat ik Ember werkend had gekregen ben ik gestart met de [Ember quick start](https://guides.emberjs.com/release/getting-started/quick-start/). Vergolgens ben ik de [tutorial](https://guides.emberjs.com/release/tutorial/ember-cli/) gaan maken zodat ik kennis kon gaan maken met Ember. 
+Nadat ik Ember werkend had gekregen ben ik gestart met de Ember quick start. Vergolgens ben ik de tutorial gaan maken zodat ik kennis kon gaan maken met Ember. 
 
 ### Het Concept
 Voordat ik ben begonnen met het maken van een prototype heb ik eerst gekeken naar het bestaande prototype van Arjan en waar daar de ergernis zit. Dit zat vooral in het vele klikken naar verschillende tabbladen. Daarom heb ik gekozen voor een grid-view, zodat je alle categorieën al beschikbaar hebt in je scherm. 
@@ -138,8 +139,12 @@ for (var x = 0; x < dataCombined.length; x++) {
   }
 }
 ``` 
+
+### Leerdoelen
+Tijdens dit project heb ik voor het eerst gewerkt met een framework 🙃. Dit was in het begin wel wennen waar ik alle bestanden kon vinden. Doordat de tijd voor het project zo kort was heb ik niet alles over het framework kunnen leren, maar de basis kennis is er voor mijn gevoel. 
+
 ### Conclusie
-Door dat de tijd voor dit project zo kort is was het lastig om alle functies van Ember te leren. Als er voor dit project meer tijd had gestaan had je meer kunnen leren over hoe het framework precies werkt. 🤔🤔
+Door dat de tijd voor dit project zo kort is was het lastig om alle functies van Ember te leren. Wat er tijdens dit project fijn was, was dat er meerdere mensen hetzelfde framework hadden waardoor je altijd vragen kon stellen. Het nadeel van dit project was de tijd. Als meer tijd was geweest had je meer over de werking van het framework kunnen leren. 🤔🤔
 
 ## Licentie
 
