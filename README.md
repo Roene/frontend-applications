@@ -5,7 +5,7 @@ Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in
 
 ## Inhoud
 * [To Do](#to-do)
-* [Voorwaarden](#voorwaarden)
+* [Benodigdheden](#benodigdheden)
 * [Installatie](#installatie)
 * [Start](#start-project)
 * [Proces](#proces)
@@ -19,7 +19,7 @@ Tijdens dit project wilde ik de volgende dingen doen
 - [ ] Ingevulde data opslaan in localstorage 
 - [ ] Helpers gebruiken
 
-## Voorwaarden
+## Benodigdheden
 
 Voor dit project moet je de volgende dingen geinstalleerd hebben op je computer : 
 
