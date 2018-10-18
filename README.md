@@ -8,15 +8,16 @@ Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in
 * [Voorwaarden](#voorwaarden)
 * [Installatie](#installatie)
 * [Start](#start-project)
+* [Proces](#proces)
 * [Licentie](#licentie)
 
 ## To Do
 Tijdens dit project wilde ik de volgende dingen doen
 - [x] Ember installeren
 - [x] Componenten & routes maken
-- [x] Data inladen in component
-- [ ] Ingevulde data opslaan in localstorage 
+- [x] Data inladen in een component
 - [ ] Helpers gebruiken 
+- [ ] Ingevulde data opslaan in localstorage 
 
 ## Voorwaarden
 
@@ -39,6 +40,18 @@ npm install
 * `ember serve`
 * Bezoek de app op : [http://localhost:4200](http://localhost:4200).
 * Voor test kun je hier naar toe gaan : [http://localhost:4200/tests](http://localhost:4200/tests).
+
+## Proces
+
+In mijn proces ga ik de volgende dingen bespreken.
+
+* Ervaring met Ember
+* Het Concept
+* Data inladen
+* Leerpunten
+
+### Ervaring met Ember
+
 
 ## Licentie
 
