@@ -45,12 +45,29 @@ npm install
 
 In mijn proces ga ik de volgende dingen bespreken.
 
-* Ervaring met Ember
+* Starten met Ember
 * Het Concept
 * Data inladen
 * Leerpunten
+* Conclusie
 
-### Ervaring met Ember
+### Starten met Ember
+Tijdens het installeren van Ember liep ik al tegen problemen aan. Ik kreeg verschillende errors waardoor ik Ember niet kon installeren. 
+Het fixen van deze errors was lastig omdat ik soms niet wist op welke errors ik moest zoeken. Uiteindelijk heeft dit mij 1 dag gekost voor ik het probleem
+kon gaan oplossen.
+
+Nadat ik Ember werkend had gekregen ben ik gestart met de [Ember quick start]('https://guides.emberjs.com/release/getting-started/quick-start/'). Vergolgens ben ik de [tutorial]('https://guides.emberjs.com/release/tutorial/ember-cli/') gaan maken zodat ik kennis kon gaan maken met Ember. 
+
+### Het Concept
+
+
+### Data inladen
+
+
+### Leerpunten
+
+
+### Conclusie
 
 
 ## Licentie
