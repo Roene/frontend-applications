@@ -55,7 +55,7 @@ Tijdens het installeren van Ember liep ik al tegen problemen aan. Ik kreeg versc
 Het fixen van deze errors was lastig omdat ik soms niet wist op welke errors ik moest zoeken. Uiteindelijk heeft dit mij 1 dag gekost voor ik het probleem
 kon gaan oplossen.
 
-Nadat ik Ember werkend had gekregen ben ik gestart met de [Ember quick start]('https://guides.emberjs.com/release/getting-started/quick-start/'). Vergolgens ben ik de [tutorial]('https://guides.emberjs.com/release/tutorial/ember-cli/') gaan maken zodat ik kennis kon gaan maken met Ember. 
+Nadat ik Ember werkend had gekregen ben ik gestart met de [Ember quick start](https://guides.emberjs.com/release/getting-started/quick-start/). Vergolgens ben ik de [tutorial](https://guides.emberjs.com/release/tutorial/ember-cli/) gaan maken zodat ik kennis kon gaan maken met Ember. 
 
 ### Het Concept
 Voordat ik ben begonnen met het maken van een prototype heb ik eerst gekeken naar het bestaande prototype van Arjan en waar daar de ergernis zit. Dit zat vooral in het vele klikken naar verschillende tabbladen. Daarom heb ik gekozen voor een grid-view, zodat je alle categorieën al beschikbaar hebt in je scherm. 
