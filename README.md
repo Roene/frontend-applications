@@ -51,7 +51,7 @@ In mijn proces ga ik de volgende dingen bespreken.
 * Leerdoelen
 * Conclusie
 
-### Starten met Ember
+### Starten met Ember 🐹
 Tijdens het installeren van Ember liep ik al tegen problemen aan. Ik kreeg verschillende errors waardoor ik Ember niet kon installeren. 
 Het fixen van deze errors was lastig omdat ik soms niet wist op welke errors ik moest zoeken. Uiteindelijk heeft dit mij 1 dag gekost voor ik het probleem
 kon gaan oplossen.
