@@ -1,7 +1,7 @@
 # Risicotaxatie app
 Dit project is opgesteld om de risicotaxatie app van Arjan te verbeteren. De applicatie kan worden gebruikt om de kans op een zware 
 maatregel te berekenen.
-Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in dit project is dat [Ember.js](https://www.emberjs.com/).
+Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in dit project is dat [Ember.js](https://www.emberjs.com/) 💪.
 
 ## Inhoud
 * [To Do](#to-do)
@@ -48,7 +48,6 @@ In mijn proces ga ik de volgende dingen bespreken.
 * Starten met Ember
 * Het Concept
 * Data inladen
-* Leerpunten
 * Conclusie
 
 ### Starten met Ember
@@ -139,11 +138,8 @@ for (var x = 0; x < dataCombined.length; x++) {
   }
 }
 ``` 
-### Leerpunten
-
-
 ### Conclusie
-Door dat de tijd voor dit project zo kort is was het lastig om alle functies van Ember te leren. Als we hier
+Door dat de tijd voor dit project zo kort is was het lastig om alle functies van Ember te leren. Als er voor dit project meer tijd had gestaan had je meer kunnen leren over hoe het framework precies werkt. 🤔🤔
 
 ## Licentie
 

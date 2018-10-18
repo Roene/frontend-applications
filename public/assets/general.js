@@ -8,7 +8,6 @@ function number(element) {
 		factorRisk(number);
 	}
 	calculateRisk(Number(totalWeight.replace(',', '.')));
-	console.log(totalWeight);
 }
 
 function calculateRisk(X) {
