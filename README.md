@@ -3,6 +3,8 @@ Dit project is opgesteld om de risicotaxatie app van Arjan te verbeteren. De app
 maatregel te berekenen.
 Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in dit project is dat [Ember.js](https://www.emberjs.com/) 💪.
 
+![risicotaxatie](images/riscotaxatie.PNG)
+
 ## Inhoud
 * [To Do](#to-do)
 * [Benodigdheden](#benodigdheden)
@@ -155,6 +157,7 @@ Tijdens dit project heb ik voor het eerst gewerkt met een framework 🙃. Dit wa
 * Meer het framework gebruiken
 * Meer onderzoek doen naar hoe iets werkt binnen het framework
 * Niet op 1 ding vast blijven hangen maar doorgaan met iets anders
+* Itereren op het ontwerp
 
 ### Conclusie
 Door dat de tijd voor dit project zo kort is was het lastig om alle functies van Ember te leren. Wat er tijdens dit project fijn was, was dat er meerdere mensen hetzelfde framework hadden waardoor je altijd vragen kon stellen. Het nadeel van dit project was de tijd. Als meer tijd was geweest had je meer over de werking van het framework kunnen leren. 🤔🤔
