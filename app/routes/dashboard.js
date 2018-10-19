@@ -376,26 +376,26 @@ var data = [
 ]
 
 // Bron Martijn Reeuwijk <3 | Datum 14-10-2018
-var dataCombined = [];
-for (var i = 0; i < data.length; i++) {
+var dataCombined = [];  // Nieuwe variabele die de categorieën en antwoorden saved
+for (var i = 0; i < data.length; i++) { // Loop door de data array
 
-  var newCategory = true;
-  for (var j = 0; j < dataCombined.length; j++) {
-    if (dataCombined[j].Categorie === data[i].Categorie) {
+  var newCategory = true;   // Zet nieuwe categorie boolean op true
+  for (var j = 0; j < dataCombined.length; j++) { // Loop door de dataCombined array
+    if (dataCombined[j].Categorie === data[i].Categorie) {  // Als de dataCombined dezelfde catagorie als data heeft zet newCategory op false
       newCategory = false;
     }
   }
 
-  if (newCategory) {
+  if (newCategory) {  // Als de newCategory true is push categorie en antwoorden in DataCombined
     dataCombined.push({
       'Categorie': data[i].Categorie,
       'Antwoorden': []
     });
   }
 
-  for (var j = 0; j < dataCombined.length; j++) {
-    if (dataCombined[j].Categorie === data[i].Categorie) {
-      dataCombined[j].Antwoorden.push({
+  for (var j = 0; j < dataCombined.length; j++) { // Loop door de dataCombined array
+    if (dataCombined[j].Categorie === data[i].Categorie) {  // Als de dataCombined een categorie heeft die ook in data zit 
+      dataCombined[j].Antwoorden.push({                     // Push dan Coeffiecents, Naam, Gewicht in het antwoorden object die in dataCombined zit
         'Coefficients': data[i].Coefficients,
         'Name': data[i].Name,
         'Gewicht': data[i].Gewicht,
@@ -405,7 +405,7 @@ for (var i = 0; i < data.length; i++) {
 }
 
 // Worked together with Jeroen van Berkum
-var dataDoubleCombined = {
+var dataDoubleCombined = {   // Maak nieuw object met lege array's erin
   algemeen: [],
   opleiding: [],
   huishouding: [],
@@ -413,14 +413,14 @@ var dataDoubleCombined = {
   justitie: []
 }
 
-for (var x = 0; x < dataCombined.length; x++) {
+for (var x = 0; x < dataCombined.length; x++) {     // Loop door de dataCombined array
   switch(dataCombined[x].Categorie) {
     case 'Geslacht':
     case 'Herkomst':
     case 'Leeftijd moeder':
     case 'Leeftijd vader':
     case 'Leeftijdsverschil ouders':
-      dataDoubleCombined.algemeen.push(dataCombined[x]);
+      dataDoubleCombined.algemeen.push(dataCombined[x]);  // Push de categorieen in het object DataDoubleCombined in de array algemeen
       break; 
     case 'Voortijdig schoolverlaten':
     case 'Soort onderwijs':
@@ -451,6 +451,6 @@ for (var x = 0; x < dataCombined.length; x++) {
 
 export default Route.extend({
 	model() {
-    return dataDoubleCombined;
+    return dataDoubleCombined;      // Return dataDoubleCombined object
 	}
 });
