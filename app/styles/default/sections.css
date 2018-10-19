@@ -57,3 +57,16 @@ h1, h2, h3, h5, p {
 #red {
 	color: red;
 }
+
+.left {
+	margin-left: 2em;
+}
+
+.no-height {
+	line-height: 1em;
+}
+
+.no-height:hover {
+	background-color: white;
+	cursor: none;
+}
