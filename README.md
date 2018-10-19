@@ -70,7 +70,7 @@ Nadat ik Ember werkend had gekregen ben ik gestart met de Ember quick start. Ver
 Voordat ik ben begonnen met het maken van een prototype heb ik eerst gekeken naar het bestaande prototype van Arjan en waar daar de ergernis zit. Dit zat vooral in het vele klikken naar verschillende tabbladen. Daarom heb ik gekozen voor een grid-view, zodat je alle categorieën al beschikbaar hebt in je scherm. 
 
 ### Data inladen
-De data kregen wij aangeleverd als Json file. De date moest worden uitgelezen en verwerkt worden zodat het in een werkbaar formaat kwam. Ook wilde ik de data weer categoriseren in mijn eigen gemaakte categorieën. Dit wordt gedaan met onderstaande code. Deze data wordt weer meegegeven in een Route zodat in het template de data gelijk goed is gesorteerd
+De data 📊 kregen wij aangeleverd als Json file. De date moest worden uitgelezen en verwerkt worden zodat het in een werkbaar formaat kwam. Ook wilde ik de data weer categoriseren in mijn eigen gemaakte categorieën. Dit wordt gedaan met onderstaande code. Deze data wordt weer meegegeven in een Route zodat in het template de data gelijk goed is gesorteerd
 
 ```js 
 // Bron Martijn Reeuwijk <3 | Datum 14-10-2018
