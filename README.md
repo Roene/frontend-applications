@@ -18,6 +18,7 @@ Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in
 Tijdens dit project wilde ik de volgende dingen doen
 - [x] Ember installeren
 - [x] Componenten & routes maken
+- [x] Route aanmaken
 - [x] Data inladen in een component
 - [ ] Ingevulde data opslaan in localstorage 
 - [ ] Helpers gebruiken
