@@ -8,6 +8,7 @@ Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in
 * [Benodigdheden](#benodigdheden)
 * [Installatie](#installatie)
 * [Start](#start-project)
+* [Bronnen](#bronnen)
 * [Proces](#proces)
 * [Licentie](#licentie)
 
@@ -40,6 +41,12 @@ npm install
 * `ember serve`
 * Bezoek de app op : [http://localhost:4200](http://localhost:4200) en niet naar local👻.
 * Voor test kun je hier naar toe gaan : [http://localhost:4200/tests](http://localhost:4200/tests).
+
+## Bronnen
+ℹ️
+* [Tutorial](https://guides.emberjs.com/release/tutorial/ember-cli/)
+* [Martjn Reeuwijk](https://github.com/MartijnReeuwijk)
+
 
 ## Proces
 
