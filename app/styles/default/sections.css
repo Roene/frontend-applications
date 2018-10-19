@@ -49,3 +49,11 @@ h1, h2, h3, h5, p {
 	margin-left: 10px;	
 	color: #000000;
 }
+
+#green {
+	color: green;
+}
+
+#red {
+	color: red;
+}
