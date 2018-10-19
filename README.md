@@ -3,7 +3,7 @@ Dit project is opgesteld om de risicotaxatie app van Arjan te verbeteren. De app
 maatregel te berekenen.
 Tijdens dit project was de voorwaarde dat er gewerkt wordt met een framework, in dit project is dat [Ember.js](https://www.emberjs.com/) 💪.
 
-![risicotaxatie](images/riscotaxatie.PNG)
+![risicotaxatie](images/risicotaxatie.PNG)
 
 ## Inhoud
 * [To Do](#to-do)
