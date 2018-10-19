@@ -121,7 +121,7 @@ for (var x = 0; x < dataCombined.length; x++) {     // Loop door de dataCombined
     case 'Leeftijd moeder':
     case 'Leeftijd vader':
     case 'Leeftijdsverschil ouders':
-      dataDoubleCombined.algemeen.push(dataCombined[x]);  // Push de categorieen in het object DataDoubleCombined in de array algemeen
+      dataDoubleCombined.algemeen.push(dataCombined[x]);  // Push de categorieen in het object algemeen in DataDoubleCombined
       break; 
     case 'Voortijdig schoolverlaten':
     case 'Soort onderwijs':
