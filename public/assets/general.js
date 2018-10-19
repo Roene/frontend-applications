@@ -2,10 +2,7 @@ function number(element) {
 
     var values = document.querySelectorAll('.choose option:checked'); // Haal alle checked select velden op
     var totalWeight = element.options[element.selectedIndex].value;   // Haal value op van select element die wordt aangeklikt
-    for (var i = 0; i < values.length; i++) {
-         var weight = values[i].getAttribute('value');
-    }
-    calculateRisk(Number(totalWeight.replace(',', '.')));              // Maak van de opgehaalde value een nummer
+    calculateRisk(Number(totalWeight.replace(',', '.')));             // Maak van de opgehaalde value een nummer
 }
 
 function calculateRisk(X) {
